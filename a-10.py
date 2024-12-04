@@ -3,7 +3,7 @@ def dice():
     import random
 
     saikoro = ["1", "2", "3", "4", "5", "6"]
-    idx = random.randint(0, 7)
+    idx = random.randint(0, 5)
     result = saikoro[idx]
     return result
 
