@@ -23,7 +23,7 @@ def max_i(i):
 
 # 最小値: 1
 def min_i(i):
-    min_i = int(num[0])
+    min_i = int(j[0])
     for num in j:
         if min_i > int(num):
             min_i = int(num)
@@ -32,7 +32,14 @@ def min_i(i):
 
 # 平均値: 6
 def ave_i(i):
+    sum_i = 0
     for num in j:
         sum_i += int(num)
     ave_i = sum_i // len(j)
     return ave_i
+
+
+print(sum_i(i))
+print(max_i(i))
+print(min_i(i))
+print(ave_i(i))
