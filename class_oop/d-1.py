@@ -1,3 +1,6 @@
+import math
+
+
 class Circle:
     # コードが期待通り動作するように実装
     def __init__(self, radius):
@@ -5,10 +8,10 @@ class Circle:
         self.radius = radius
 
     def area(self):
-        return self.radius * self.radius * 3.14
+        return f"{self.radius * self.radius * math.pi:.2f}"
 
     def perimeter(self):
-        return 2 * 3.14 * self.radius
+        return f"{2 * math.pi * self.radius:.2f}"
 
 
 # 半径1の円
